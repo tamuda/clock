@@ -10,7 +10,6 @@ const Clock = () => {
       const now = new Date();
       const currentHours = now.getHours().toString().padStart(2, "0"); // Ensures two digits
       const currentMinutes = now.getMinutes().toString().padStart(2, "0"); // Ensures two digits
-      const currentSeconds = now.getSeconds().toString().padStart(2, "0"); // Ensures
 
       setHours(currentHours);
       setMinutes(currentMinutes);
