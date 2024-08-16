@@ -14,7 +14,6 @@ const Clock = () => {
 
       setHours(currentHours);
       setMinutes(currentMinutes);
-      setSeconds(currentSeconds);
     };
 
     // Update the time immediately
