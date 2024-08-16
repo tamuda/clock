@@ -30,7 +30,7 @@ const Clock = () => {
       <div className="text-cyan-500 z-0 tracking-tighter -rotate-2  font-black text-[34vw] relative">
         {hours[0]}
       </div>
-      <div className="text-cyan-500 z-40 -rotate-4 translate-y-4 opacity-60 mix-blend-screen  tracking-tighter font-black text-[36vw] relative">
+      <div className="text-cyan-500 z-40 -rotate-4 opacity-60 mix-blend-screen  tracking-tighter font-black text-[36vw] relative">
         {hours[1]}
       </div>
 
